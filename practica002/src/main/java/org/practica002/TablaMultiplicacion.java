@@ -17,8 +17,6 @@ public class TablaMultiplicacion {
       System.out.println(numero + " x " + numero1 + " = " + (numero * numero1));
       numero1++;
     }
-
-
   }
 
 }

@@ -1,0 +1,36 @@
+
+CICLOS : 
+
+* -> Ciclo Controlado por Contador:
+
+    Un ciclo controlado por contador utiliza una variable de contador para controlar el número de veces que el ciclo se ejecuta. 
+    El contador se inicializa antes de comenzar el ciclo, se verifica en cada iteración y se actualiza de manera adecuada. 
+    Este tipo de ciclo es típicamente utilizado cuando el número de iteraciones es conocido de antemano.
+
+* -> Ciclo Controlado por Centinela:
+    
+    Un ciclo controlado por centinela se ejecuta hasta que se encuentra un valor especial llamado “valor centinela” o “valor de parada”. 
+    Este valor es utilizado para terminar el ciclo y no necesariamente tiene relación con la lógica del problema, sino que actúa como una condición de terminación para detener el ciclo. 
+    Este tipo de ciclo es útil cuando no se conoce el número de iteraciones y el ciclo debe continuar hasta que se cumpla una determinada condición.
+
+*************************************************************************
+************************************************* DIFERENCIAS PRINCIPALES
+
+* -> Conocimiento Previo:
+  |
+  |--> Controlado por Contador: Requiere saber de antemano cuántas veces se ejecutará el ciclo.
+  |
+  |--> Controlado por Centinela: No requiere saber el número de iteraciones; se detiene cuando se encuentra con el valor centinela.
+
+* -> Uso de Variables:
+  |
+  |--> Controlado por Contador: Usa una variable contadora que se incrementa o decrementa en cada iteración.
+  |
+  |--> Controlado por Centinela: Utiliza una variable para leer los datos de cada iteración y se compara con el valor centinela.
+
+* -> Flexibilidad:
+  |
+  |--> Controlado por Contador: Menos flexible ya que está diseñado para un número fijo de iteraciones.
+  |
+  |--> Controlado por Centinela: Más flexible y útil en situaciones donde la terminación depende de una entrada externa o una condición que puede no estar fija.
+
